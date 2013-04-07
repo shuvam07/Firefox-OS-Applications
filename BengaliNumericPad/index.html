@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>বাংলা কি-বোর্ড</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+ <link rel="stylesheet" href="foundation/stylesheets/app.css">  
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.css">
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+ <link rel="stylesheet" href="css-file.css">
+</head>
+<script src="js-file.js">
+</script>
+<body>
+<br>
+<div class="row">
+<div class="twelve columns mobile-four">
+<div id="numberDiv"></div>
+</div>
+</div>
+<br><br>
+<table class="responsive" style="margin: auto;">
+<tr>
+ <td><input type="submit" class="large button" value="১"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="২"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="৩"  onclick="printNumber(this.value)"/></td>
+</tr>
+<tr>
+ <td><input type="submit" class="large button" value="৪"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="৫"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="৬"  onclick="printNumber(this.value)"/></td>
+</tr>
+<tr>
+ <td><input type="submit" class="large button" value="৭"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="৮"  onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="৯"  onclick="printNumber(this.value)"/></td>
+</tr>
+<tr>
+ <td><input type="submit" class="large button" value="#" onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="০"   onclick="printNumber(this.value)"/></td>
+ <td><input type="submit" class="large button" value="*" onclick="printNumber(this.value)"/></td>
+</tr>
+</table>
+<br>
+<table class="responsive" style="margin: auto;">
+<tr>
+<td>
+<a href="#callDialog"><input type="submit" value="কল করুন" class="large button" onclick="phoneCall()"/></a>
+</td>
+<td>
+<input type="submit" value="ডিলিট" class="large button" onclick="deleteNum()"/>
+</td>
+</tr>
+</table>
+
+<div class="row">
+<div class="twelve columns mobile-four">
+<div id="callDialog" class="modalDialog">
+<div>
+<p>কল করা হচ্ছে</p>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
