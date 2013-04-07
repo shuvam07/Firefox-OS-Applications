@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Love Calculator</title>
+ <link rel="stylesheet" href="foundation/stylesheets/app.css">  
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.css">
+ <link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+ <link rel="stylesheet" href="css-file.css">
+</head>
+<script src="js-file.js">
+</script>
+<body onload="clear()">
+<br><br>
+<div class="row">
+<div id="introduction" class="twelve columns mobile-four">
+<p>Enter Date of birth of your partner's and your birthday and check the compatibility..</p>
+</div>
+</div>
+<br><br>
+<div class="row">
+<div class="six columns mobile-two">
+<input type="date" id="partner1" placeholder="yyyy-mm-dd"/>
+</div>
+<div class="six columns mobile-two">
+<input type="date" id="partner2" placeholder="yyyy-mm-dd"/>
+</div>
+</div>
+<br><br>
+<div class="row">
+<div class="twelve columns mobile-four" style="text-align: center;" >
+<div id="loader"></div>
+</div>
+</div>
+<br><br>
+<div class="row">
+<div id="button-div" class="twelve columns mobile-four">
+<input type="submit" class="button" onclick="check_compatibility_pre()" value="Check Compatibility!!"/>  
+</div>
+</div>
+</body>
+</html>
