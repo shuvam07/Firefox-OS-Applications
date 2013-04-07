@@ -6,3 +6,4 @@ All the applications are web based (i.e. you will get to see their equivalent we
 The sites are Mobile compatible (using Zurb Foundation)
 The list of all the Application:
  1. Love Calculator
+ 2. Bengali Numeric Key-Pad
